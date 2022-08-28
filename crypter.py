@@ -9,51 +9,51 @@ def cryptingwithmors(text):
 	for letter in text:
 		letter = letter.lower()
 		if(letter == "a"):
-			cryptedtext = cryptedtext + ".-" + "x"
+			cryptedtext = cryptedtext + ".-" + " "
 		if(letter == "b"):
-			cryptedtext = cryptedtext + "-..." + "x"
+			cryptedtext = cryptedtext + "-..." + " "
 		if(letter == "c"):
-			cryptedtext = cryptedtext + "-.-." + "x"
+			cryptedtext = cryptedtext + "-.-." + " "
 		if(letter == "d"):
-			cryptedtext = cryptedtext + "-.." + "x"
+			cryptedtext = cryptedtext + "-.." + " "
 		if(letter == "e"):
-			cryptedtext = cryptedtext + "." + "x"
+			cryptedtext = cryptedtext + "." + " "
 		if(letter == "f"):
-			cryptedtext = cryptedtext + "..-." + "x"
+			cryptedtext = cryptedtext + "..-." + " "
 		if(letter == "g"):
-			cryptedtext = cryptedtext + "--." + "x"
+			cryptedtext = cryptedtext + "--." + " "
 		if(letter == "h"):
-			cryptedtext = cryptedtext + "...." + "x"
+			cryptedtext = cryptedtext + "...." + " "
 		if(letter == "i"):
-			cryptedtext = cryptedtext + ".." + "x"
+			cryptedtext = cryptedtext + ".." + " "
 		if(letter == "j"):
-			cryptedtext = cryptedtext + ".---" + "x"
+			cryptedtext = cryptedtext + ".---" + " "
 		if(letter == "k"):
-			cryptedtext = cryptedtext + "-.-" + "x"
+			cryptedtext = cryptedtext + "-.-" + " "
 		if(letter == "l"):
-			cryptedtext = cryptedtext + ".-.." + "x"
+			cryptedtext = cryptedtext + ".-.." + " "
 		if(letter == "m"):
-			cryptedtext = cryptedtext + "--" + "x"
+			cryptedtext = cryptedtext + "--" + " "
 		if(letter == "n"):
-			cryptedtext = cryptedtext + "-." + "x"
+			cryptedtext = cryptedtext + "-." + " "
 		if(letter == "o"):
-			cryptedtext = cryptedtext + "---" + "x"
+			cryptedtext = cryptedtext + "---" + " "
 		if(letter == "p"):
-			cryptedtext = cryptedtext + ".--." + "x"
+			cryptedtext = cryptedtext + ".--." + " "
 		if(letter == "r"):
-			cryptedtext = cryptedtext + ".-." + "x"
+			cryptedtext = cryptedtext + ".-." + " "
 		if(letter == "s"):
-			cryptedtext = cryptedtext + "..." + "x"
+			cryptedtext = cryptedtext + "..." + " "
 		if(letter == "t"):
-			cryptedtext = cryptedtext + "-" + "x"
+			cryptedtext = cryptedtext + "-" + " "
 		if(letter == "u"):
-			cryptedtext = cryptedtext + "..-" + "x"
+			cryptedtext = cryptedtext + "..-" + " "
 		if(letter == "v"):
-			cryptedtext = cryptedtext + "...-" + "x"
+			cryptedtext = cryptedtext + "...-" + " "
 		if(letter == "y"):
-			cryptedtext = cryptedtext + "-.--" + "x"
+			cryptedtext = cryptedtext + "-.--" + " "
 		if(letter == "z"):
-			cryptedtext = cryptedtext + "--.." + "x"
+			cryptedtext = cryptedtext + "--.." + " "
 
 	print(cryptedtext)
 
